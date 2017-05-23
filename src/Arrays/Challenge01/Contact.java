@@ -4,7 +4,6 @@ package Arrays.Challenge01;
  * Created by sami on 5/19/17.
  */
 public class Contact {
-
     private String name;
     private String phoneNumber;
 
@@ -21,11 +20,7 @@ public class Contact {
         return phoneNumber;
     }
 
-    public static Contact createContact(String name, String phoneNumber){
+    public static Contact createContact(String name, String phoneNumber) {
         return new Contact(name, phoneNumber);
-
-
-
     }
-
 }
