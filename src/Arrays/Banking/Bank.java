@@ -6,7 +6,6 @@ import java.util.ArrayList;
  * Created by sami on 5/24/17.
  */
 public class Bank {
-
     private String name;
     private ArrayList<Branch> branches;
 
@@ -80,6 +79,9 @@ public class Bank {
             return false;
         }
     }
+
+
+
 
 
 
