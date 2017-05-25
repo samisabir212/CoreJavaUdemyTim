@@ -10,7 +10,9 @@ import java.util.ArrayList;
 
 public class MobilePhone {
     private String myNumber;
+    //this is an array of contacts in the Contact class called myContact
     private ArrayList<Contact> myContacts;
+
 
     public MobilePhone(String myNumber) {
         this.myNumber = myNumber;
