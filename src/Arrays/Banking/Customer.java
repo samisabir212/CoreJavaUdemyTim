@@ -6,7 +6,6 @@ import java.util.ArrayList;
  * Created by sami on 5/24/17.
  */
 public class Customer {
-
     private String name;
     private ArrayList<Double> transactions;
 
@@ -27,5 +26,4 @@ public class Customer {
     public ArrayList<Double> getTransactions() {
         return transactions;
     }
-
 }

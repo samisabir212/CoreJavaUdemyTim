@@ -11,13 +11,9 @@ public class Bank {
 
     public Bank(String name) {
         this.name = name;
-        this.branches = new ArrayList<Branch>();//initializing the branches Arraylist
+        this.branches = new ArrayList<Branch>();
     }
 
-
-    /*
-    if the branch name doesnt exist, then add the breanch name to the this.branches
-    */
     public boolean addBranch(String branchName) {
         if(findBranch(branchName) == null) {
             this.branches.add(new Branch(branchName));
@@ -27,7 +23,6 @@ public class Bank {
         return false;
     }
 
-    //testing is customer is on file
     public boolean addCustomer(String branchName, String customerName, double initialAmount) {
         Branch branch = findBranch(branchName);
         if(branch != null) {
