@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Customer {
     private String name;
     private ArrayList<Double> transactions;
+    private double balance;
 
     public Customer(String name, double initialAmount) {
         this.name = name;
@@ -25,5 +26,9 @@ public class Customer {
 
     public ArrayList<Double> getTransactions() {
         return transactions;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
