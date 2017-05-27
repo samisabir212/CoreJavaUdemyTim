@@ -1,0 +1,16 @@
+using comparable interface
+using implements in the seat class
+
+    //Collection allows us to enable any of the collections classes to hold our seats
+
+
+binary search is the fasted way to find an item in a sorted list
+    works by checking the element in the mid point of the list
+        method basically plays higher or lower with the list
+        so the middle element is greater than the item that we're looking for
+        then it knws the one we want must be in the first part of the list
+        then perfoms a binary search on that half of the list in the same way soo
+        the list is reduced to half each time.. will take no more than 10 chcks to find
+        an item or decide its not present in a list of 1,023 elements 2 the power of 10
+        1 million elements can be check in no more than 20 comparisons
+        64 comparisons are all thats required to search a list With an Absolutly huge number
