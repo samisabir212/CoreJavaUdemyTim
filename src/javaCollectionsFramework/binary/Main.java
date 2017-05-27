@@ -1,4 +1,4 @@
-package javaCollectionsFramework.Binary;
+package javaCollectionsFramework.binary;
 
 /**
  * Created by sami on 5/27/17.

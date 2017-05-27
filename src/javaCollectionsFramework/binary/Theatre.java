@@ -1,4 +1,4 @@
-package javaCollectionsFramework.Binary;
+package javaCollectionsFramework.binary;
 
 import java.util.*;
 
