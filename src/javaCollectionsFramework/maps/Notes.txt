@@ -15,7 +15,6 @@ a map cannot contian duplicate keys and each key can only map to a single value
     Maps are a inbuilt java interface
 
 use the put method to add value to a key
-
 you retrieve the key map with the get method
     and type in the key
         video tutorial @ 9:00
@@ -30,3 +29,25 @@ method called put if absent
 Check for items then remove them using the remove method
     loop through all the keys in the map using the key set method
     and it returns a set of all the keys
+
+
+    .remove method removes a key from the map
+
+.replace method used to repace the entry for a specified key
+if its already mapped to a value
+    .replace method also has a method with 3 passed parameters
+         they key, the old value, and new value
+
+the key and value can be any object
+    could use  map type as the values in another map
+    you could add a map as a value to itself,
+
+immutable objects or things like strings and integers
+whos values cant change
+
+
+MAP
+    HASHMAP
+    HASHTABLE
+    LINKEDHASHMAP
+    TREEMAP

@@ -1,0 +1,13 @@
+sets are used less often than lists and maps but are extremely useful
+
+a list is an ordered collection of items that can contain duplicates
+    a set has no definied ordering
+    a set cannot contain duplicates
+
+theyre are ordered sets
+    such as link hash set and tree set
+
+to insure there is no dupicates in your new collection
+    use set rather than list
+        the set interface is generic and takes a single type
+

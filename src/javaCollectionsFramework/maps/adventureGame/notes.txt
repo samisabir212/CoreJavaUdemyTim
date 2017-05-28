@@ -1,0 +1,58 @@
+creating a map of exits
+using the locationID and description
+
+Exit map is being initialized as a Hash Map with a key of String and a value of Integer
+
+create getters for the location id
+    description
+    and map of exits
+
+you need method for abilty to add an exit
+    direction is going to be the key
+    location is going to be our value
+
+notice our fields our marked final so they cant be changed once a
+concstructor has finished creating a location instance
+
+
+the getExits() method is instead of just returning of exits map
+and creating a new Hashmap and passing out exits in the constructor
+ a new map is created and has all the mappings of the exit map
+ nothing in the outside of that class can change exits,
+ the getter returns a copy of exits so if the calling program wants to
+ add or remove mappings from it and the exits mapping field wont be affected
+
+ we will sho some ways t omake your classes immutable and returning immutable object to getter
+
+
+in the main class
+    we are passing an integer in the map and passing the location class as the value and the integer is the key
+    initializing line 13
+
+the while loop is using loc field set to 1 and iterating through the map to retrieve the description of each key
+
+line 35 loc = scanner.nextInt() is retrieveng the number
+
+mapping out the availble exits on line 30
+    we have nort west south east as valid directions
+
+
+instead of reading from integer we will read from the letter in the maps
+
+line 68 creating a map of exits and using the getExits method to retrieve the exit getting the location number
+    inittializing the LocationNUmber integer at Zero
+    using the keyset() method in the forloop
+
+grabing a letter rather than a number with the scanner
+
+String direction = scanner.nextLine.touppercase
+
+using the containsKey method on line 77
+
+created valid keys for each location  on the map
+
+REMEMBER
+    the location number is returning the OBJECT
+
+
+string class split method

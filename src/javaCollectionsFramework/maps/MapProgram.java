@@ -1,4 +1,4 @@
-package javaCollectionsFramework.Maps;
+package javaCollectionsFramework.maps;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -42,6 +42,25 @@ public class MapProgram {
 
         System.out.println("================================================");
 
+        //languages.remove("Lisp");
+        if (languages.remove("Algol", " Afamily of algol languages")) {
+            System.out.println("algol removed");
+
+        }else {
+            System.out.println("algol not removed, key/value not found");
+
+        }
+
+
+        if (languages.replace("Lisp", "Therein lies madness", "a functional program language with imperative features")) {
+            System.out.println("lisp replaced");
+
+        }else {
+            System.out.println("lisp was not replaced");
+        }
+
+
+        System.out.println(languages.replace("Scaler", "this will not be added it doesnt exists"));
 
         //looping through the keys   key in languages.keyset
         //this loop loops through all the values of they keys and prints the key and deffinition values
