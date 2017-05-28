@@ -1,0 +1,25 @@
+Please view Map.java class for further information
+
+Map is not part of a collection
+its an interface
+maps keys to values
+example of a map with the keys being in words in the dictionaries and
+values being of course the definition of the words
+a map cannot contian duplicate keys and each key can only map to a single value
+ we will also look at Hash Map as well as Linked Hash Map
+ also Tree Map that implements the sorted map interface
+
+ use hash maps to store descriptions
+
+ Maps come from the java.util package
+    Maps are a inbuilt java interface
+
+use the put method to add value to a key
+
+you retrieve the key map with the get method
+    and type in the key
+        video tutorial @ 9:00
+
+keys can be overwritten
+
+use the contains key method to see whether a key exists

@@ -1,0 +1,6 @@
+utilizing the compare to method
+using the comparetoignorecase
+ implements comprable
+ calling the reverse method from the collections class
+ comparator interface defines a single method called compare
+ an object of type comparator can be created with a compare method

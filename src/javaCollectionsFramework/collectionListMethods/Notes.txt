@@ -1,0 +1,14 @@
+COLLECTION LIST METHODS
+
+there is a method to copy lists
+    shallow copy
+        creates an array list containing all the elements from the list that were
+        passed to the constructor
+
+Usefull method called .shuffle
+                        .min
+                        .max
+
+Swap method
+bubble sort method
+nested for loops
