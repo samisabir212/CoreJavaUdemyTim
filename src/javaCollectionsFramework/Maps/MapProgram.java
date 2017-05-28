@@ -39,8 +39,12 @@ public class MapProgram {
             languages.put("Java", "this course is about Java");
         }
 
+
         System.out.println("================================================");
 
+
+        //looping through the keys   key in languages.keyset
+        //this loop loops through all the values of they keys and prints the key and deffinition values
         for(String key: languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
         }

@@ -23,3 +23,10 @@ you retrieve the key map with the get method
 keys can be overwritten
 
 use the contains key method to see whether a key exists
+
+method called put if absent
+    adds to the map if the key is not already present (prevents concurrency issues)
+
+Check for items then remove them using the remove method
+    loop through all the keys in the map using the key set method
+    and it returns a set of all the keys
