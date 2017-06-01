@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by sami on 5/28/17.
  */
-public class Main {
+public class Main2 {
 
     public static void main(String[] args) {
         ArrayList<Integer> items = new ArrayList<>(); //<Integer> is saying this is the type that we are using in this array list

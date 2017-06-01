@@ -1,2 +1,7 @@
 Generics allow us to create classes in the faces of methods that take types of parameters
 called type parameters
+
+the earlier the bug is fixed the cheaper the cost will be
+    less resources used and less man power invested
+if the application is in production mode and there is a bug it must
+be fixed asap.. then must fully test it to make sure the fix didnt introduce another bug

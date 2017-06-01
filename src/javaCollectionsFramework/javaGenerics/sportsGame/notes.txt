@@ -1,0 +1,12 @@
+make sure only baseball players are in baseball teams
+    same goes for every other sport and team
+        the sport = team sport
+
+
+
+Team class , create Type parameter
+    modify the class declaration to include the top parameter
+    use a diamond and put a T in the middle which indicates its going to be a type parameter
+
+
+An arguement passed for a type parameter can be either a class or an interface

@@ -1,4 +1,15 @@
+Set is a type of collection that stores unique elements
+
 sets are used less often than lists and maps but are extremely useful
+
+Hashsets do not retain order
+    can and spontainiously rearrange them selves
+
+LinkedHashset
+    remembers order you added items in
+
+Treeset
+    stores in natural order (Alphabetic order)
 
 a list is an ordered collection of items that can contain duplicates
     a set has no definied ordering
@@ -11,3 +22,19 @@ to insure there is no dupicates in your new collection
     use set rather than list
         the set interface is generic and takes a single type
 
+
+sets are optimized to find a particular item quikly
+    unlike arraylist you have itarate through the whole list
+        Sets asks if an item is contained in the list
+
+
+to find whats common between two different sets
+    use retainAll() method
+
+
+you can pass a constructor when creating a new set
+    its making a copy when you pass another set in in another set
+
+to find the difference between two sets
+    use removeAll() method and pass set 2 as parameter
+        you will be left with just set1 elements and not set2 elements

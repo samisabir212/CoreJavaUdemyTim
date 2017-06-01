@@ -1,0 +1,18 @@
+ linkedhashmaps are in order
+
+ hashmaps are chaotic
+
+ example in this project is adding items to shapping basket
+ after choosing them from the list of all the items on sale
+    maintain two collections
+        1- a list of items that are in stock
+        2- items that a customer added to the basket
+
+we want to have stock items in alphabetic order
+    we could have items come from a database
+    so they could be at any order we want by using an order
+    clauce and sql query retrieving from database
+        this is a potantial way of doing it
+
+lets see how a linked hash map can be useful
+    we will extend it to use a tree map
